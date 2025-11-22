@@ -1,0 +1,456 @@
+/* Alpsan Karademır */
+	/* HomePage */
+.hm_body{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#B0CE88;
+}
+.hm_row1{
+	width:50%;
+	margin-left:auto;
+	margin-top:1%;
+	margin-right:auto;
+	/* background-color:#4C763B; */
+	border:;
+	border-radius:75px;
+	position:sticky;
+	top:1%;
+}
+.hm_search{
+	text-align:left;
+	border-radius:25px;
+	padding-left:2%;
+	width:60%;
+	padding:1% 2% 1% 2%;
+	border:none;
+	background-color:#;
+}
+#hm_homepage:hover{
+	background-color:#F1F3E0;
+}
+.hm_buttons:hover{
+	background-color:#F1F3E0;
+}
+.hm_pages{
+	background-color:none;
+	border:none;
+	border-radius:25px;
+	appearance: none;
+	padding:1% 2% 1% 2%;
+	background-color:#;
+	
+	
+}
+.hm_pages:hover{
+	background-color:red;
+	background-color:#F1F3E0;
+}
+/* .hm_ophi{ */
+	/* size:100px; */
+}
+#hm_selecter{
+	margin-left:auto;
+	margin-right:3%;
+	float:right;
+	padding:1% 2% 1% 2%;
+	border-radius:25px;
+	appearance: none;
+	border:none;
+	background-color:#;
+}
+#hm_homepage{
+	margin-left:2%;
+	border-radius:25px;
+	padding:1% 2% 1% 2%;
+	border:none;
+	background-color:#;
+}
+.hm_op{
+	border:none;
+}
+.hm_buttons{
+	margin-bottom:3%;
+	margin-top:3%;
+	text-align:left;
+	appearance: none;
+	border:none;
+	background-color:#;
+	padding:1% 2% 1% 2%;
+	border-radius:25px;
+}
+#hm_pic1{
+	left:0%;
+	
+}
+#hm_pic2{
+	right:0%;
+}
+.hm_pics{
+	position:fixed;
+	top:0%;
+	width:10%;
+	height:100%;
+	z-index:-1;
+}
+.hm_row2{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.hm_parag{
+	width:40%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:10%;
+}
+.hm_header{
+	text-align:center;
+}
+#hm_para1{
+	margin-left:auto;
+	margin-right:auto;
+}
+#hm_para2{
+	float:left;
+}
+#hm_para3{
+	float:right;
+}
+.hm_backtop{
+	position:sticky;
+	bottom:5px;
+}
+.backtopp{
+	color:white;
+	margin:auto;
+}
+.hm_backtopbut{
+	background-color:black;
+	border:solid white;
+}
+.hm_row3{
+	margin-top:40%;
+	background-color:black;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:2%;
+	padding-right:2%;
+}
+.hm_contact{
+	color:white;
+	opacity:1;
+}
+.dropdown{
+	display:none;
+	/* position:sticky; */
+	/* top:0px; */
+	/* position:relative; */
+	/* top:0px; */
+	/* left:0px; */
+}
+
+/* Phones */
+
+@media only screen and (max-width: 600px){
+.hm_row1{
+	position:relative;
+	display:inline;
+}
+.hm_row3{
+	display:none;
+}
+.hm_parag{
+	width:100%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:10%;
+}
+.hm_search{
+	position:absolute;
+	right:0px;
+}
+.hm_pageselect{
+	position:absolute;
+	top:35px;
+	left:3px;
+}
+.hm_nav{
+	display:none;
+}
+.dropdown{
+	display:block;
+}
+  
+}
+/* laptops */
+@media only screen and (min-width: 600px) and (max-width: 1025px)  {
+.hm_row1{
+	display:inline;
+	}
+.hm_row3{
+	margin-top:90%;
+	background-color:black;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:2%;
+	padding-right:2%;
+	}
+.hm_parag{
+	width:100%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:10%;
+	}	
+.dropdown{
+	display:none;
+}
+}
+	/* page2 */
+	
+.de_body{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#C6D870;
+}
+.de_p{
+	float:right;
+	width:60%;
+	display:none;
+	transition:width 0.5s;
+}
+.de_p1{
+	padding-top:;
+}
+.de_r2r1{
+	overflow: hidden;
+	border-radius:30px;
+}
+.de_r2r2{
+	overflow: hidden;
+	border-radius:30px;
+}
+.de_r2r3{
+	display:;
+	margin-top:;
+	overflow: hidden;
+	border-radius:30px;
+}
+.de_img{
+	width:20%;
+	text-align:left;
+	padding:0px;
+	margin-left:;
+	transition:width 1s;
+	border-radius:30px;
+}
+.de_img:hover{
+	width:30%;
+	margin-left:0px;
+}
+.de_img1{
+	margin-top:;
+}
+.de_img2{
+	padding:;
+}
+.de_img3{
+	
+}
+.de_row1{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-bottom:20%;
+}
+.de_r2r1:hover{
+	
+}
+.de_r2r1 {
+	height:auto;
+}
+.de_r2r2 {
+	
+}
+.de_r2r3{
+	
+}
+.pg2_navbar{
+	padding-bottom:25%;
+	padding-top:2%;
+}
+
+
+/* Page7 */
+
+.donateText{
+	font-size:200%;
+	text-align:center;
+}
+.donateButtons{
+	display: flex;
+	justify-content: center;
+}
+.donateButtons1{
+	margin-right:auto;
+	margin-left:auto;
+}
+.monSubCheck{
+	display:none;
+}
+.donateDiv{
+	background-color:#8CA9FF;
+}
+.pg7_labels{
+	color:black;
+}
+.checkB{
+	overflow: hidden;
+	border-radius:30px;
+	background-color:#AAC4F5;
+	margin-bottom:2%;
+	margin-top:2%;
+	padding-bottom:10%;
+	padding-top:10%;
+	padding-left:15%;
+}
+.donateDiv{
+	overflow: hidden;
+	border-radius:30px;
+	padding-top:10%;
+	padding-bottom:10%;
+}
+.pg7_col3{
+	margin-top:5%;
+	margin-bottom:5%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.pg7_row1{
+	/* margin-top:5%; */
+	background-image:url('./images/panda.png');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.pg7_body{
+	/* width:80%; */
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FE6244;
+}
+.pg7_row1nav{
+	/* width:50%; */
+	margin-left:0%;
+	/* margin-top:1%; */
+	margin-right:auto;
+	/* background-color:#4C763B; */
+	border:;
+	/* border-radius:75px; */
+	background-color:#778873;
+}
+.pg7_nav{
+	padding-left:10%;	
+	padding-right:auto;
+}
+.pg7_row3{
+	background-color:#D2DCB6;
+	margin:auto;
+}
+.pg7_form{
+	opacity:0;
+}
+.pg7_formLabel{
+	font-size:150%;
+}
+
+
+
+
+
+
+
+/* Darius Joaquim Alvares */
+/* Page 3 */
+#body_3{
+	
+}
+#pg_3{
+	/* background:linear-gradient(to bottom, #fffadc,#b5f500,#a4de00,#98cd00); */
+	margin:0px 50px 0px 50px;
+	border-radius:50px;
+	border:solid 10px brown;
+}
+.sec_1{
+	background-image:linear-gradient(to bottom,#b77366 ,#ffe1af,#e2b49a,#9c7963);
+	border-radius:50px;
+	border-top:solid 5px green;
+	border-bottom:solid 5px green;
+}
+.sec_2{
+	border-radius:50px;
+	border-top:solid 5px green;
+	border-bottom:solid 5px green;
+}
+.sec_3{
+	border-radius:50px;
+	border-top:solid 5px green;
+	border-bottom:solid 5px green;
+}
+/* Page 4 */
+#body_4{
+	
+}
+#pg_4{
+	/* background:linear-gradient(to bottom, #fffadc,#b5f500,#a4de00,#98cd00); */
+	margin:0px 50px 0px 50px;
+	border-radius:50px;
+	border:solid 5px green;
+}
+.sec_4{
+	
+	border-radius:50px;
+	border-top:solid 5px green;
+	border-bottom:solid 5px green;
+}
+.sec_5{
+	background-image:linear-gradient(to bottom,#e5fadb ,#a0d8b3,#a2a379,#83754e);
+	border-radius:50px;
+	border-top:solid 5px green;
+	border-bottom:solid 5px green;
+}
+
+
+
+
+
+
+
+
+
+/* Demilade Banwo */
+
+
+
+
+
+
+/* Google Fonts */
+
+.playfair{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.amarante-regular{
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration-line: underline;
+}
+.julius-sans-one-regular{
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
