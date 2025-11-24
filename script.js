@@ -14,6 +14,18 @@ function homebutton(){
 								window.location.href = hmLang;
 							}
 						}
+// Nav Bar Hover
+const links = document.querySelectorAll(".navbar a");
+
+links.forEach(link => {
+  link.addEventListener("mouseover", () => {
+    link.classList.add("hovered");
+  });
+
+  link.addEventListener("mouseout", () => {
+    link.classList.remove("hovered");
+  });
+});
 
 window.onload = function () {
     const hero = document.querySelector(".hero-banner");

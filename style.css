@@ -1,5 +1,6 @@
-/* Alpsan Karademır */
-	/* HomePage */
+/* Alpsan Karademir */
+	
+/* old homePage */
 .hm_body{
 	width:80%;
 	margin-left:auto;
@@ -38,13 +39,7 @@
 	border-radius:25px;
 	appearance: none;
 	padding:1% 2% 1% 2%;
-	background-color:#;
-	
-	
-}
-.homeh1{
-	float:left;
-	padding-right:10px;
+	background-color:#;	
 }
 .hm_pages:hover{
 	background-color:red;
@@ -68,18 +63,6 @@
         /* #1c1c1c 100% */
     /* ); */
 /* } */
-.hmPage_Body{
-	background: linear-gradient(
-        to right,
-        #004d40 0%,
-        #b08f4c 50%,
-        #1c1c1c 100%
-    );
-}
-
-/* .hm_ophi{ */
-	/* size:100px; */
-}
 #hm_selecter{
 	margin-left:auto;
 	margin-right:3%;
@@ -189,6 +172,26 @@
 .img-thumbnail{
 	float:left;
 }
+
+/* Homepage */
+.homeh1{
+	float:left;
+	padding-right:10px;
+}
+
+.hmPage_Body{
+	background: linear-gradient(
+        to right,
+        #004d40 0%,
+        #b08f4c 50%,
+        #1c1c1c 100%
+    );
+}
+
+/* .hm_ophi{ */
+	/* size:100px; */
+}
+
 
 /* Phones */
 
@@ -428,6 +431,22 @@
 
 
 /* Darius Joaquim Alvares */
+.navbar a {
+  /* background-color: blue; */
+  /* color: white; */
+  /* padding: 10px 15px; */
+  border-radius:10%;
+  border-top:solid 1px cyan;
+  border-bottom:solid 1px cyan;
+  transition: 0.3s ease; 
+  
+}
+
+.navbar a.hovered {
+  background-color: cyan;
+  color: black;
+  
+}
 .hero-banner {
     height: 60vh; /* adjust to 50–80vh if needed */
     /* background: url('images/forest.jpg') center/cover no-repeat; */
@@ -450,12 +469,12 @@
 /* Forest page transition */
 .hero-banner.forestActive1 {
   opacity: 1;
-  background-color:red;
+  background-color:lightgreen;
   transition: all 2.5s ease;
 }
 .hero-banner.forestActive2 {
   opacity: 0.8;
-  background-color:blue;
+  background-color:green;
   transition: all 2.5s ease;
 }
 
@@ -463,25 +482,25 @@
 .hero-banner.poachingActive1 {
   opacity: 1;
   /* background-image:radial-gradient(circle,red 14.1% ,orange 28.2%,yellow 42.3%,green 56.4%,blue 70.5%,indigo 84.6%,violet 98.7%); */
-  background-color:red;
+  background-color:lightbrown;
   transition: all 2.5s ease;
 }
 .hero-banner.poachingActive2 {
   opacity: 0.8;
   /* background-image:radial-gradient(circle,red 15.1%,orange 29.2%,yellow 43.3%,green 57.4%,blue 71.5%,indigo 85.6%,violet 99.7%); */
-   background-color:blue;
+   background-color:brown;
   transition: all 2.5s ease;
 }
 
 /* Alien page transition */
 .hero-banner.alienActive1 {
   opacity: 1;
-  background-color:red;
+  background-color:darkgreen;
   transition: all 2.5s ease;
 }
 .hero-banner.alienActive2 {
   opacity: 0.8;
-  background-color:blue;
+  background-color:swampgreen;
   transition: all 2.5s ease;
 }
 /* Community page transition */
@@ -507,16 +526,16 @@
   transition: all 2.5s ease;
 }
 /* Donate page transition */
-.hero-banner.donateActive1 {
-  opacity: 1;
-  background-color:red;
-  transition: all 2.5s ease;
-}
-.hero-banner.donateActive2 {
-  opacity: 0.8;
-  background-color:blue;
-  transition: all 2.5s ease;
-}
+/* .hero-banner.donateActive1 { */
+  /* opacity: 1; */
+  /* background-color:red; */
+  /* transition: all 2.5s ease; */
+/* } */
+/* .hero-banner.donateActive2 { */
+  /* opacity: 0.8; */
+  /* background-color:blue; */
+  /* transition: all 2.5s ease; */
+/* } */
 /* Page 3 */
 
 
